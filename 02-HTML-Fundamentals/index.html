@@ -9,10 +9,11 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>HTML Basics</title>
+    <link rel="stylesheet" href="style.css" />
+    <title>Learn HTML CSS</title>
   </head>
   <body>
-    <header>
+    <header class="main-header">
       <h1>📘 The Code Magazine</h1>
       <div>
         <a href="blog.html">Blog</a>
@@ -26,7 +27,7 @@
       <header>
         <h2>The Basic Language of the Web: HTML</h2>
         <img src="img/laura-jones.jpg" alt="laura-jones" width="50" height="50" />
-        <p>Posted by <strong>Laura Jones</strong> on Monday, June 21st 2027</p>
+        <p id="author">Posted by <strong>Laura Jones</strong> on Monday, June 21st 2027</p>
         <img src="img/post-img.jpg" alt="HTML code on screen" width="500" height="200" />
       </header>
       <p>
@@ -71,24 +72,26 @@
     </article>
     <aside>
       <h4>Related posts</h4>
-      <ul>
+      <ul class="related-post">
         <li>
           <img src="img/related-1.jpg" alt="Learn Web Development" width="75" height="75" />
           <a href="#">How to learn Web Development</a>
-          <p>By Author</p>
+          <p class="rel-author">By Author Author</p>
         </li>
         <li>
           <img src="img/related-2.jpg" alt="Power of CSS" width="75" height="75" />
           <a href="#">Power of CSS</a>
-          <p>By Author</p>
+          <p class="rel-author">By Author Author</p>
         </li>
         <li>
           <img src="img/related-3.jpg" alt="JavaScript is Awesome" width="75" height="75" />
-          <a href="#">JavaScript is Awesome</a>
-          <p>By Author</p>
+          <a href="#">JavaScript is Awesome!</a>
+          <p class="rel-author">By Author Author</p>
         </li>
       </ul>
     </aside>
-    <footer>Copyright &COPY; 2023 by Noor Salim</footer>
+    <footer>
+      <p id="copyright">Copyright &COPY; 2023 by NSG</p>
+    </footer>
   </body>
 </html>
